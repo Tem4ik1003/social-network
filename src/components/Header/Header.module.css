@@ -1,0 +1,17 @@
+.header {
+    padding: 10px 15vw;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+}
+
+.button:not(:first-child) {
+margin-left: 10px;
+}
