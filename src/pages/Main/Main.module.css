@@ -1,0 +1,11 @@
+.content {
+    background-color: #6e9741;
+    min-height: 100vh;
+    padding: 80px 20vw 0 10vw;
+}
+
+@media screen and (max-width: 480px){
+    .content {
+        padding: 0;
+    }
+}
