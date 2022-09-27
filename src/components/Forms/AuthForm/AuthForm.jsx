@@ -1,7 +1,7 @@
 import React from 'react';
 import {Form, Formik} from "formik";
 import Button from "../../UI/Button/Button";
-import Input from "../../UI/Input/Input";
+import Field from "../../UI/Field/Field";
 import styles from "./AuthForm.module.css";
 import CheckBox from "../../UI/CheckBox/CheckBox";
 import Error from "../../UI/Error/Error";
@@ -33,12 +33,12 @@ const AuthForm = () => {
                         </div>
                         <div className={styles.field}>
                             <span>Адреса ел.пошти</span>
-                            <Input name='email' type='email'/>
+                            <Field name='email' type='email'/>
                             {touched.email && errors.email && <Error errorText={errors.email}/>}
                         </div>
                         <div className={styles.field}>
                             <span>Пароль</span>
-                            <Input name='password' type='password'/>
+                            <Field name='password' type='password'/>
                             {touched.password && errors.password && <Error errorText={errors.password}/>}
                         </div>
                         <div className={styles.field}>

@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px 12vw;
+}
+
+.header__inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.icons > * {
+    margin-left: 1vw;
+}
+
+.button {
+    margin: 0 5vw;
+}
+
+.search {
+    margin-right: 5vw;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu button {
+    border: none;
+    background-color: #FFF;
+}

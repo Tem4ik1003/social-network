@@ -1,7 +1,7 @@
 import React from 'react';
 import {Field} from "formik";
 
-const Input = ({className, name, type}) => {
+const MyField = ({className, name, type}) => {
     return (
             <Field className={className} name={name} type={type} style={{
                 fontSize: '16px',
@@ -12,4 +12,4 @@ const Input = ({className, name, type}) => {
     );
 };
 
-export default Input;
+export default MyField;

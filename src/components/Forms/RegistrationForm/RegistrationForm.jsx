@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './RegistrationForm.module.css'
 import Button from "../../UI/Button/Button";
-import Input from "../../UI/Input/Input";
+import Field from "../../UI/Field/Field";
 import {Form, Formik} from "formik";
 import Error from "../../UI/Error/Error";
 
@@ -45,27 +45,27 @@ const RegistrationForm = () => {
                         </div>
                         <div className={styles.field}>
                             <span>Прізвище та ім’я</span>
-                            <Input name='userName'/>
+                            <Field name='userName'/>
                             {touched.userName && errors.userName && <Error errorText={errors.userName}/>}
                         </div>
                         <div className={styles.field}>
                             <span>Номер телефону</span>
-                            <Input name='phoneNumber'/>
+                            <Field name='phoneNumber'/>
                             {touched.phoneNumber && errors.phoneNumber && <Error errorText={errors.phoneNumber}/>}
                         </div>
                         <div className={styles.field}>
                             <span>Адреса ел.пошти</span>
-                            <Input name='email' type='email'/>
+                            <Field name='email' type='email'/>
                             {touched.email && errors.email && <Error errorText={errors.email}/>}
                         </div>
                         <div className={styles.field}>
                             <span>Пароль</span>
-                            <Input name='password' type='password'/>
+                            <Field name='password' type='password'/>
                             {touched.password && errors.password && <Error errorText={errors.password}/>}
                         </div>
                         <div className={styles.field}>
                             <span>Повторіть пароль</span>
-                            <Input name='repeatPassword' type='password'/>
+                            <Field name='repeatPassword' type='password'/>
                         </div>
                         <div className={styles.note}>
                             <span>Якщо ваша ел. адрес вже була зареєстрована, будь ласка виберіть “Авторизація”, так як повторна реєстрація неможлива</span>
