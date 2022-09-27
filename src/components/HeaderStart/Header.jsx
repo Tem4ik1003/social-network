@@ -2,8 +2,10 @@ import React from 'react';
 import styles from './Header.module.css'
 import logo from '../../assets/logo.png'
 import Button from "../UI/Button/Button";
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate()
     return (
         <header className={styles.header}>
             <div className={styles.header__inner}>
@@ -11,8 +13,8 @@ const Header = () => {
                     <img src={logo} alt=""/>
                 </div>
                 <div>
-                    <Button className={styles.button}>Авторизація</Button>
-                    <Button className={styles.button}>Реєстрація</Button>
+                    <Button className={styles.button} onClick={() => navigate('/auth')}>Авторизація</Button>
+                    <Button className={styles.button} onClick={() => navigate('/registration')}>Реєстрація</Button>
                 </div>
             </div>
         </header>

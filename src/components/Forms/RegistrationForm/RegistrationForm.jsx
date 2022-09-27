@@ -1,24 +1,11 @@
 import React from 'react';
 import styles from './RegistrationForm.module.css'
-import Button from "../UI/Button/Button";
-import Input from "../UI/Input/Input";
+import Button from "../../UI/Button/Button";
+import Input from "../../UI/Input/Input";
 import {Form, Formik} from "formik";
+import Error from "../../UI/Error/Error";
 
-const Error = ({errorText}) => {
-    return <div style={{
-        position: "absolute",
-        padding: '15px',
-        left: '75%',
-        top: '30px',
-        background: '#fff',
-        borderRadius: '10px',
-        width: '40%',
-        textAlign: "center",
-    }}>
-        {errorText}
-    </div>
 
-}
 
 const RegistrationForm = () => {
     return (

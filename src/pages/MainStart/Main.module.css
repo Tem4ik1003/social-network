@@ -1,7 +1,8 @@
 .content {
     background-color: #6e9741;
-    min-height: 100vh;
-    padding: 80px 20vw 0 10vw;
+    padding: 80px 20vw 7px 10vw;
+    min-height: 90vh;
+    height: auto;
 }
 
 @media screen and (max-width: 480px){

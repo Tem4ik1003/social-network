@@ -1,0 +1,33 @@
+.form {
+    max-width: 400px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 0 50px;
+}
+
+.header_text {
+    margin: 20px 0;
+    text-align: center;
+}
+.field {
+    position: relative;
+}
+
+.field:not(:first-child) {
+    margin-top: 20px;
+}
+
+.field *:not(:last-child) {
+    display: block;
+}
+.button_submit {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.button_submit button {
+    width: 100%;
+}

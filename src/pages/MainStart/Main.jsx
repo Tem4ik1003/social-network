@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from "../../components/Header/Header";
-import RegistrationForm from "../../components/RegistrationForm/RegistrationForm";
+import Header from "../../components/HeaderStart/Header";
 import styles from "./Main.module.css"
 
-const Main = () => {
+const Main = ({children}) => {
     return (
         <div>
             <Header/>
             <div className={styles.content}>
-                <RegistrationForm/>
+                {children}
             </div>
         </div>
     );
