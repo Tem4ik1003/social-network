@@ -1,4 +1,11 @@
 .content {
     background-color: #F0F0F0;
     height: 100vh;
+    padding-top: 20px;
+}
+
+.content__inner {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
 }
