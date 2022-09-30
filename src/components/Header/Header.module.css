@@ -11,7 +11,7 @@
 }
 
 .icons {
-    margin-right: 10px;
+    display: flex;
 }
 
 .icons > * {
@@ -23,14 +23,21 @@
 }
 
 .search {
-    margin-right: 5vw;
+    margin-right: 3vw;
 }
 
 .menu {
     margin-left: auto;
+    padding: 0 15px;
 }
 
 .menu button {
     border: none;
     background-color: #FFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 15px 4vw;
+    }
 }

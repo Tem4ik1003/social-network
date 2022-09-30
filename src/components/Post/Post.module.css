@@ -1,0 +1,49 @@
+.post {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.post__inner {
+
+}
+
+.infoProfile {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.infoProfile img {
+    width: 3vw;
+}
+
+.infoProfile span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infoPost {
+
+}
+
+.text {
+
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #6e9741;
+    border-radius: 50%;
+}
+
+
+.share {
+
+}
