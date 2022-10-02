@@ -2,16 +2,16 @@ import React from 'react';
 import styles from './Post.module.css'
 import avatar from '../../assets/avatar.png'
 
-const Post = () => {
+const Post = ({userName, text}) => {
     return (
         <div className={styles.post}>
             <div className={styles.post__inner}>
                 <div className={styles.infoProfile}>
                     <img src={avatar} alt=""/>
-                    <span>Игорь Бандера</span>
+                    <span>{userName}</span>
                 </div>
                 <div className={styles.infoPost}>
-                    <span>Купуй зручно та заощаджуй. Здійсни замовлення, а ми доставимо його безкоштовно!</span>
+                    <span>{text}</span>
                     <div className={styles.likes}>
                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd"
                              clipRule="evenodd">
