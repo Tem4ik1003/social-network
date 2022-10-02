@@ -1,0 +1,70 @@
+.dropDown {
+    top: 80px;
+    right: 10px;
+    width: 450px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #FFF;
+}
+
+.dropDown__inner {
+    padding: 10px 20px;
+}
+
+.dropDown__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header .close {
+
+}
+.items {
+    margin-top: 10px;
+    height: 440px;
+    overflow-y: scroll;
+}
+.items::-webkit-scrollbar {
+    background-color: #F0F0F0;
+}
+
+.items::-webkit-scrollbar-thumb {
+    background-color: #6e9741;
+    border-radius: 10px;
+}
+
+.message {
+    margin-top: 20px;
+    display: flex;
+    gap: 0 5px;
+}
+
+.message__data {
+}
+
+.message__data_photo img {
+    width: 50px;
+}
+
+.message__data_userName {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.message__data_text {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.photo {
+
+}
+
