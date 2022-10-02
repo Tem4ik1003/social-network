@@ -8,7 +8,9 @@ const CircleButton = ({children, className}) => {
             color: '#fff',
             border: 'none',
             borderRadius: '50%',
-            padding: '10px'
+            padding: '5px',
+            display: 'flex',
+            alignItems: 'center'
         }}>
             {children}
         </button>
